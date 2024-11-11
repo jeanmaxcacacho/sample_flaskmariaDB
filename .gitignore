@@ -1,0 +1,50 @@
+# Virtual environment (created in the current directory)
+venv/
+env/
+*.env
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Flask-specific files
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+*.env
+
+# Database files
+*.sqlite
+*.db
+
+# Flask cache files
+instance/
+*.pid
+
+# Coverage reports
+*.cover
+coverage.xml
+*.hypothesis/
+
+# Test output
+nosetests.xml
+coverage/
+
+# Python bytecode files
+*.pyc
+*.pyo

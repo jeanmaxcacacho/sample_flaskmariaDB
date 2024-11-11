@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body %}
+<h1>What's up?</h1>
+<hr>
+<h2>All the posts in the database</h2>
+{% for post in posts %}
+<h3>{{ post.un }} -- {{ post.pa }}</h3>
+<p>{{ post.c }}</p>
+{% endfor %}
+
+{% endblock %}
