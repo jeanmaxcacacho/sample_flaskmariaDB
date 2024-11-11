@@ -4,4 +4,6 @@ Just like CSCI40 activate your virtual environment first.
 After creating and running your virtual environment run:
 `pip install -r requirements.txt`
 
-Goal of this sample project is to demo python-MariaDB API(?) within Flask. Since this uses MariaDB, it might be a good idea to setup XAMPP within your local development environments Try to clone this repo and implement the rest of the CRUD operationsa: add, update, delete.
+Goal of this sample project is to demo python-MariaDB API(?) within Flask. Since this uses MariaDB, it might be a good idea to setup XAMPP within your local development environments Try to clone this repo and implement the rest of the CRUD operations: add, update, delete.
+
+Source `create_database.sql` first also before running the Flask server.
