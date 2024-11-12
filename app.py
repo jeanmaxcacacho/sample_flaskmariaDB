@@ -24,3 +24,9 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# TODO:
+# implement session management
+# implement create operation (HTTP POST)
+# implement update operation (HTTP PUT)
+# implement delete operation (HTTP DELETE)
